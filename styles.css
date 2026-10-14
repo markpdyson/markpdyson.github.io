@@ -1,0 +1,39 @@
+body {
+	background-color: black;
+}
+
+#name {
+	font-size: 70px;
+	color: white;
+	text-align: center;
+	font-weight: normal;
+	
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+nav {
+	border-top-color: white;
+	border-top-style: solid;
+	border-top-width: 2px;
+	
+	border-bottom-color: white;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	
+	margin: auto;
+	width: 450px;
+}
+
+#navigation_items {
+	display: flex;
+}
+
+#navigation_items div {
+	padding: 10px;
+	color: white;
+	margin: auto;
+	
+	font-weight: bold;
+}
+
